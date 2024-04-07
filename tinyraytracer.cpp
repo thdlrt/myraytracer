@@ -9,10 +9,10 @@
 const int width    = 1024;
 const int height   = 768;
 const float fov    = M_PI/2;
-Material      ivory(Vec3f(0.4, 0.4, 0.3));
-Material red_rubber(Vec3f(0.3, 0.1, 0.1));
-Material backgroud(Vec3f(0.2, 0.7, 0.8));
-Material black(Vec3f(0, 0, 0));
+Material      ivory(Vec2f(0.6, 0.3), Vec3f(0.4, 0.4, 0.3), 50.);
+Material red_rubber(Vec2f(0.9, 0.1),Vec3f(0.3, 0.1, 0.1), 10.);
+Material backgroud(Vec2f(0, 0), Vec3f(0.2, 0.7, 0.8), 0);
+Material black(Vec2f(0, 0), Vec3f(0, 0, 0), 0);
 std::vector<Sphere> spheres = {
     Sphere(Vec3f(-3, 0, -16), 2, ivory),
     Sphere(Vec3f(-1.0, -1.5, -12), 2, red_rubber),
@@ -20,7 +20,9 @@ std::vector<Sphere> spheres = {
     Sphere(Vec3f(7, 5, -18), 4, ivory)
 };
 std::vector<PointLight> lights = {
-    PointLight(Vec3f(-20, 20, 20), 1.5)
+    PointLight(Vec3f(-20, 20, 20), 1.5),
+    PointLight(Vec3f(30, 50, -25), 1.8),
+    PointLight(Vec3f(30, 20, 30), 1.7)
 };
 
 bool intersect(const Vec3f &orig, const Vec3f &dir, Vec3f &hit_p, Vec3f &normal, Material &material) {
@@ -37,18 +39,34 @@ bool intersect(const Vec3f &orig, const Vec3f &dir, Vec3f &hit_p, Vec3f &normal,
     }
     return spheres_dist<1000;
 }
+Vec3f reflect(const Vec3f &I, const Vec3f &N) {
+    return I - N*2.f*(I*N);
+}
 Vec3f cast_ray(const Vec3f &orig, const Vec3f &dir) {
     Vec3f hit_p, normal;
     Material material;
     if (!intersect(orig, dir, hit_p, normal, material)) {
         return backgroud.color;
     }
-    float diffuse_intensity = 0;
+    float diffuse_intensity = 0, specular_intensity = 0;
     for(PointLight light: lights) {
+        //阴影：判断是否被遮挡
+        float dis = (light.position - hit_p).norm();
         Vec3f light_dir = (light.position - hit_p).normalize();
+        //偏移原点，避免自己遮挡自己
+        Vec3f shadow_orig = hit_p + light_dir*1e-3;
+        Vec3f shadow_p, shadow_n;
+        Material tmpmaterial;
+        if (intersect(shadow_orig, light_dir, shadow_p, shadow_n, tmpmaterial) && (shadow_p-shadow_orig).norm() < dis) {
+            continue;
+        }
+        //漫反射与镜面反射
         diffuse_intensity += light.intensity * std::max(0.f, light_dir*normal);
+        //Vec3f mid = (light_dir - dir).normalize();
+        //specular_intensity += light.intensity * powf(std::max(0.f, mid*normal), material.specular_exponent);
+        specular_intensity += powf(std::max(0.f, -reflect(-light_dir, normal)*dir), material.specular_exponent)*light.intensity;
     }
-    return material.color*diffuse_intensity;
+    return material.color*diffuse_intensity*material.albedo[0] + Vec3f(1., 1., 1.)*specular_intensity*material.albedo[1];
 }
 void renderpix(std::vector<Vec3f>&framebuffer) {
     for (int j = 0; j<height; j++) {

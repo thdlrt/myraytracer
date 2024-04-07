@@ -13,8 +13,10 @@ struct PointLight {
 
 struct Material {
     Vec3f color;
-    Material(const Vec3f &color) : color(color) {}
-    Material() : color() {}
+    Vec2f albedo;
+    float specular_exponent;
+    Material(const Vec2f &a, const Vec3f &color, const float &spec) : albedo(a), color(color), specular_exponent(spec) {}
+    Material() : albedo(1,0), color(), specular_exponent() {}
 };
 
 struct Sphere {
