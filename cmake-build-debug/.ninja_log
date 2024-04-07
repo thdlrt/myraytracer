@@ -1,0 +1,21 @@
+# ninja log v5
+6	500	7341763471150306	CMakeFiles/tinyraytracer.dir/tinyraytracer.cpp.obj	d70cd420174e15a4
+501	624	7341763472351220	tinyraytracer.exe	877fc17e3f3455bd
+13	860	7341789565281359	CMakeFiles/tinyraytracer.dir/tinyraytracer.cpp.obj	d70cd420174e15a4
+860	1034	7341789566997621	tinyraytracer.exe	877fc17e3f3455bd
+13	819	7341789744252554	CMakeFiles/tinyraytracer.dir/tinyraytracer.cpp.obj	d70cd420174e15a4
+819	985	7341789745806027	tinyraytracer.exe	877fc17e3f3455bd
+12	753	7341789895820315	CMakeFiles/tinyraytracer.dir/tinyraytracer.cpp.obj	d70cd420174e15a4
+753	924	7341789897224619	tinyraytracer.exe	877fc17e3f3455bd
+10	758	7341789953644873	CMakeFiles/tinyraytracer.dir/tinyraytracer.cpp.obj	d70cd420174e15a4
+759	900	7341789954996845	tinyraytracer.exe	877fc17e3f3455bd
+8	764	7341790042564994	CMakeFiles/tinyraytracer.dir/tinyraytracer.cpp.obj	d70cd420174e15a4
+765	907	7341790044015765	tinyraytracer.exe	877fc17e3f3455bd
+10	754	7341790086491067	CMakeFiles/tinyraytracer.dir/tinyraytracer.cpp.obj	d70cd420174e15a4
+754	891	7341790087847388	tinyraytracer.exe	877fc17e3f3455bd
+9	877	7341790138918495	CMakeFiles/tinyraytracer.dir/tinyraytracer.cpp.obj	d70cd420174e15a4
+877	1030	7341790140434828	tinyraytracer.exe	877fc17e3f3455bd
+13	884	7341790241364777	CMakeFiles/tinyraytracer.dir/tinyraytracer.cpp.obj	d70cd420174e15a4
+884	1034	7341790242951251	tinyraytracer.exe	877fc17e3f3455bd
+10	739	7341790304872307	CMakeFiles/tinyraytracer.dir/tinyraytracer.cpp.obj	d70cd420174e15a4
+740	883	7341790306389569	tinyraytracer.exe	877fc17e3f3455bd
