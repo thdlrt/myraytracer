@@ -49,9 +49,15 @@ cmake_ninja_workdir = E$:/course/myraytracer/cmake-build-debug/
 
 build cmake_object_order_depends_target_tinyraytracer: phony || CMakeFiles/tinyraytracer.dir
 
+build CMakeFiles/tinyraytracer.dir/geometry.cpp.obj: CXX_COMPILER__tinyraytracer_unscanned_Debug E$:/course/myraytracer/geometry.cpp || cmake_object_order_depends_target_tinyraytracer
+  DEP_FILE = CMakeFiles\tinyraytracer.dir\geometry.cpp.obj.d
+  FLAGS = -Wall -Wextra -pedantic -std=c++14 -O2 -fopenmp -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\tinyraytracer.dir
+  OBJECT_FILE_DIR = CMakeFiles\tinyraytracer.dir
+
 build CMakeFiles/tinyraytracer.dir/tinyraytracer.cpp.obj: CXX_COMPILER__tinyraytracer_unscanned_Debug E$:/course/myraytracer/tinyraytracer.cpp || cmake_object_order_depends_target_tinyraytracer
   DEP_FILE = CMakeFiles\tinyraytracer.dir\tinyraytracer.cpp.obj.d
-  FLAGS = -Wall -Wextra -pedantic -std=c++11 -O3 -fopenmp -g -fdiagnostics-color=always
+  FLAGS = -Wall -Wextra -pedantic -std=c++14 -O2 -fopenmp -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\tinyraytracer.dir
   OBJECT_FILE_DIR = CMakeFiles\tinyraytracer.dir
 
@@ -63,8 +69,8 @@ build CMakeFiles/tinyraytracer.dir/tinyraytracer.cpp.obj: CXX_COMPILER__tinyrayt
 #############################################
 # Link the executable tinyraytracer.exe
 
-build tinyraytracer.exe: CXX_EXECUTABLE_LINKER__tinyraytracer_Debug CMakeFiles/tinyraytracer.dir/tinyraytracer.cpp.obj
-  FLAGS = -Wall -Wextra -pedantic -std=c++11 -O3 -fopenmp -g
+build tinyraytracer.exe: CXX_EXECUTABLE_LINKER__tinyraytracer_Debug CMakeFiles/tinyraytracer.dir/geometry.cpp.obj CMakeFiles/tinyraytracer.dir/tinyraytracer.cpp.obj
+  FLAGS = -Wall -Wextra -pedantic -std=c++14 -O2 -fopenmp -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\tinyraytracer.dir
   POST_BUILD = cd .

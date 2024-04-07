@@ -19,6 +19,6 @@ CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
 -- Performing Test flag_supported - Success
 -- Performing Test flag_supported
 -- Performing Test flag_supported - Success
--- Configuring done (3.3s)
+-- Configuring done (2.5s)
 -- Generating done (0.0s)
 -- Build files have been written to: E:/course/myraytracer/cmake-build-debug

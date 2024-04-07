@@ -860,3 +860,1335 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:17 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-889w6x"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-889w6x"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-889w6x'
+        
+        Run Build Command(s): C:/Users/MSI/AppData/Local/Programs/CLIONN~1/bin/ninja/win/x64/ninja.exe -v cmTC_853e1
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -Wall -o CMakeFiles/cmTC_853e1.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-889w6x/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_853e1.dir/src.cxx.obj -o cmTC_853e1.exe -Wl,--out-implib,libcmTC_853e1.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:18 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-h7ytgl"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-h7ytgl"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-h7ytgl'
+        
+        Run Build Command(s): C:/Users/MSI/AppData/Local/Programs/CLIONN~1/bin/ninja/win/x64/ninja.exe -v cmTC_c9c71
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -Wall    -Wextra -o CMakeFiles/cmTC_c9c71.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-h7ytgl/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Wall  CMakeFiles/cmTC_c9c71.dir/src.cxx.obj -o cmTC_c9c71.exe -Wl,--out-implib,libcmTC_c9c71.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:19 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pj5a0o"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pj5a0o"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pj5a0o'
+        
+        Run Build Command(s): C:/Users/MSI/AppData/Local/Programs/CLIONN~1/bin/ninja/win/x64/ninja.exe -v cmTC_80b4e
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -Wall -Wextra    -pedantic -o CMakeFiles/cmTC_80b4e.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pj5a0o/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Wall -Wextra  CMakeFiles/cmTC_80b4e.dir/src.cxx.obj -o cmTC_80b4e.exe -Wl,--out-implib,libcmTC_80b4e.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:20 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3cq65c"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3cq65c"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -pedantic"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3cq65c'
+        
+        Run Build Command(s): C:/Users/MSI/AppData/Local/Programs/CLIONN~1/bin/ninja/win/x64/ninja.exe -v cmTC_a68e4
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -Wall -Wextra -pedantic    -std=c++11 -o CMakeFiles/cmTC_a68e4.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3cq65c/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Wall -Wextra -pedantic  CMakeFiles/cmTC_a68e4.dir/src.cxx.obj -o cmTC_a68e4.exe -Wl,--out-implib,libcmTC_a68e4.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:21 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-u0pxm9"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-u0pxm9"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -pedantic -std=c++11"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-u0pxm9'
+        
+        Run Build Command(s): C:/Users/MSI/AppData/Local/Programs/CLIONN~1/bin/ninja/win/x64/ninja.exe -v cmTC_9d1eb
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -Wall -Wextra -pedantic -std=c++11    -O3 -o CMakeFiles/cmTC_9d1eb.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-u0pxm9/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Wall -Wextra -pedantic -std=c++11  CMakeFiles/cmTC_9d1eb.dir/src.cxx.obj -o cmTC_9d1eb.exe -Wl,--out-implib,libcmTC_9d1eb.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:22 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5p5gvu"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5p5gvu"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -pedantic -std=c++11 -O3"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5p5gvu'
+        
+        Run Build Command(s): C:/Users/MSI/AppData/Local/Programs/CLIONN~1/bin/ninja/win/x64/ninja.exe -v cmTC_1605b
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -Wall -Wextra -pedantic -std=c++11 -O3    -fopenmp -o CMakeFiles/cmTC_1605b.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5p5gvu/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Wall -Wextra -pedantic -std=c++11 -O3  CMakeFiles/cmTC_1605b.dir/src.cxx.obj -o cmTC_1605b.exe -Wl,--out-implib,libcmTC_1605b.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:17 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-nhabe7"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-nhabe7"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-nhabe7'
+        
+        Run Build Command(s): "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_d15db
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -fdiagnostics-color=always   -Wall -o CMakeFiles/cmTC_d15db.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-nhabe7/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_d15db.dir/src.cxx.obj -o cmTC_d15db.exe -Wl,--out-implib,libcmTC_d15db.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:18 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l1ajef"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l1ajef"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l1ajef'
+        
+        Run Build Command(s): "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_f3266
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -Wall  -fdiagnostics-color=always   -Wextra -o CMakeFiles/cmTC_f3266.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l1ajef/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Wall  CMakeFiles/cmTC_f3266.dir/src.cxx.obj -o cmTC_f3266.exe -Wl,--out-implib,libcmTC_f3266.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:19 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-1wc8pj"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-1wc8pj"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-1wc8pj'
+        
+        Run Build Command(s): "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_00593
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -Wall -Wextra  -fdiagnostics-color=always   -pedantic -o CMakeFiles/cmTC_00593.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-1wc8pj/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Wall -Wextra  CMakeFiles/cmTC_00593.dir/src.cxx.obj -o cmTC_00593.exe -Wl,--out-implib,libcmTC_00593.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:20 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-2tnf37"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-2tnf37"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -pedantic"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-2tnf37'
+        
+        Run Build Command(s): "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_bf827
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -Wall -Wextra -pedantic  -fdiagnostics-color=always   -std=c++11 -o CMakeFiles/cmTC_bf827.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-2tnf37/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Wall -Wextra -pedantic  CMakeFiles/cmTC_bf827.dir/src.cxx.obj -o cmTC_bf827.exe -Wl,--out-implib,libcmTC_bf827.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:21 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-yswexr"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-yswexr"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -pedantic -std=c++11"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-yswexr'
+        
+        Run Build Command(s): "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_17594
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -Wall -Wextra -pedantic -std=c++11  -fdiagnostics-color=always   -O3 -o CMakeFiles/cmTC_17594.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-yswexr/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Wall -Wextra -pedantic -std=c++11  CMakeFiles/cmTC_17594.dir/src.cxx.obj -o cmTC_17594.exe -Wl,--out-implib,libcmTC_17594.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:22 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-37qe91"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-37qe91"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -pedantic -std=c++11 -O3"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-37qe91'
+        
+        Run Build Command(s): "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_00774
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -Wall -Wextra -pedantic -std=c++11 -O3  -fdiagnostics-color=always   -fopenmp -o CMakeFiles/cmTC_00774.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-37qe91/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Wall -Wextra -pedantic -std=c++11 -O3  CMakeFiles/cmTC_00774.dir/src.cxx.obj -o cmTC_00774.exe -Wl,--out-implib,libcmTC_00774.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:17 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-reljdh"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-reljdh"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-reljdh'
+        
+        Run Build Command(s): "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_ce4e9
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -fdiagnostics-color=always   -Wall -o CMakeFiles/cmTC_ce4e9.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-reljdh/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_ce4e9.dir/src.cxx.obj -o cmTC_ce4e9.exe -Wl,--out-implib,libcmTC_ce4e9.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:18 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zls76l"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zls76l"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zls76l'
+        
+        Run Build Command(s): "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_54b7b
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -Wall  -fdiagnostics-color=always   -Wextra -o CMakeFiles/cmTC_54b7b.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zls76l/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Wall  CMakeFiles/cmTC_54b7b.dir/src.cxx.obj -o cmTC_54b7b.exe -Wl,--out-implib,libcmTC_54b7b.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:19 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tlnln6"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tlnln6"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tlnln6'
+        
+        Run Build Command(s): "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_40c4f
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -Wall -Wextra  -fdiagnostics-color=always   -pedantic -o CMakeFiles/cmTC_40c4f.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tlnln6/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Wall -Wextra  CMakeFiles/cmTC_40c4f.dir/src.cxx.obj -o cmTC_40c4f.exe -Wl,--out-implib,libcmTC_40c4f.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:20 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-v3pi3c"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-v3pi3c"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -pedantic"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-v3pi3c'
+        
+        Run Build Command(s): "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_696fd
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -Wall -Wextra -pedantic  -fdiagnostics-color=always   -std=c++11 -o CMakeFiles/cmTC_696fd.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-v3pi3c/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Wall -Wextra -pedantic  CMakeFiles/cmTC_696fd.dir/src.cxx.obj -o cmTC_696fd.exe -Wl,--out-implib,libcmTC_696fd.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:21 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-a6b9jm"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-a6b9jm"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -pedantic -std=c++11"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-a6b9jm'
+        
+        Run Build Command(s): "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_4bfef
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -Wall -Wextra -pedantic -std=c++11  -fdiagnostics-color=always   -O3 -o CMakeFiles/cmTC_4bfef.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-a6b9jm/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Wall -Wextra -pedantic -std=c++11  CMakeFiles/cmTC_4bfef.dir/src.cxx.obj -o cmTC_4bfef.exe -Wl,--out-implib,libcmTC_4bfef.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:22 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e2qxpf"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e2qxpf"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -pedantic -std=c++11 -O3"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e2qxpf'
+        
+        Run Build Command(s): "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_cbd21
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -Wall -Wextra -pedantic -std=c++11 -O3  -fdiagnostics-color=always   -fopenmp -o CMakeFiles/cmTC_cbd21.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e2qxpf/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Wall -Wextra -pedantic -std=c++11 -O3  CMakeFiles/cmTC_cbd21.dir/src.cxx.obj -o cmTC_cbd21.exe -Wl,--out-implib,libcmTC_cbd21.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:23 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-hlh23v"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-hlh23v"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -pedantic -std=c++11 -O3 -fopenmp"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-hlh23v'
+        
+        Run Build Command(s): "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_d54c6
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -Wall -Wextra -pedantic -std=c++11 -O3 -fopenmp  -fdiagnostics-color=always   -g -o CMakeFiles/cmTC_d54c6.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-hlh23v/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Wall -Wextra -pedantic -std=c++11 -O3 -fopenmp  CMakeFiles/cmTC_d54c6.dir/src.cxx.obj -o cmTC_d54c6.exe -Wl,--out-implib,libcmTC_d54c6.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:17 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-odi542"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-odi542"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-odi542'
+        
+        Run Build Command(s): "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_76d7c
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -fdiagnostics-color=always   -Wall -o CMakeFiles/cmTC_76d7c.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-odi542/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_76d7c.dir/src.cxx.obj -o cmTC_76d7c.exe -Wl,--out-implib,libcmTC_76d7c.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:18 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-nqme4f"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-nqme4f"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-nqme4f'
+        
+        Run Build Command(s): "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_ecb83
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -Wall  -fdiagnostics-color=always   -Wextra -o CMakeFiles/cmTC_ecb83.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-nqme4f/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Wall  CMakeFiles/cmTC_ecb83.dir/src.cxx.obj -o cmTC_ecb83.exe -Wl,--out-implib,libcmTC_ecb83.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:19 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-s30vkp"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-s30vkp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-s30vkp'
+        
+        Run Build Command(s): "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_47960
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -Wall -Wextra  -fdiagnostics-color=always   -pedantic -o CMakeFiles/cmTC_47960.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-s30vkp/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Wall -Wextra  CMakeFiles/cmTC_47960.dir/src.cxx.obj -o cmTC_47960.exe -Wl,--out-implib,libcmTC_47960.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:20 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pwgfrv"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pwgfrv"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -pedantic"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pwgfrv'
+        
+        Run Build Command(s): "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_5c9b2
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -Wall -Wextra -pedantic  -fdiagnostics-color=always   -std=c++11 -o CMakeFiles/cmTC_5c9b2.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pwgfrv/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Wall -Wextra -pedantic  CMakeFiles/cmTC_5c9b2.dir/src.cxx.obj -o cmTC_5c9b2.exe -Wl,--out-implib,libcmTC_5c9b2.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:21 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e9t5b5"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e9t5b5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -pedantic -std=c++11"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e9t5b5'
+        
+        Run Build Command(s): "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_b70fc
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -Wall -Wextra -pedantic -std=c++11  -fdiagnostics-color=always   -O3 -o CMakeFiles/cmTC_b70fc.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e9t5b5/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Wall -Wextra -pedantic -std=c++11  CMakeFiles/cmTC_b70fc.dir/src.cxx.obj -o cmTC_b70fc.exe -Wl,--out-implib,libcmTC_b70fc.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:22 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-uinzfy"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-uinzfy"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -pedantic -std=c++11 -O3"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-uinzfy'
+        
+        Run Build Command(s): "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_310f1
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -Wall -Wextra -pedantic -std=c++11 -O3  -fdiagnostics-color=always   -fopenmp -o CMakeFiles/cmTC_310f1.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-uinzfy/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Wall -Wextra -pedantic -std=c++11 -O3  CMakeFiles/cmTC_310f1.dir/src.cxx.obj -o cmTC_310f1.exe -Wl,--out-implib,libcmTC_310f1.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:23 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ly6ep2"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ly6ep2"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -pedantic -std=c++11 -O3 -fopenmp"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ly6ep2'
+        
+        Run Build Command(s): "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_37567
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -Wall -Wextra -pedantic -std=c++11 -O3 -fopenmp  -fdiagnostics-color=always   -g -o CMakeFiles/cmTC_37567.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ly6ep2/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Wall -Wextra -pedantic -std=c++11 -O3 -fopenmp  CMakeFiles/cmTC_37567.dir/src.cxx.obj -o cmTC_37567.exe -Wl,--out-implib,libcmTC_37567.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:17 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8gg74d"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8gg74d"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8gg74d'
+        
+        Run Build Command(s): C:/Users/MSI/AppData/Local/Programs/CLIONN~1/bin/ninja/win/x64/ninja.exe -v cmTC_a532a
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -Wall -o CMakeFiles/cmTC_a532a.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8gg74d/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_a532a.dir/src.cxx.obj -o cmTC_a532a.exe -Wl,--out-implib,libcmTC_a532a.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:18 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8j8xmg"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8j8xmg"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8j8xmg'
+        
+        Run Build Command(s): C:/Users/MSI/AppData/Local/Programs/CLIONN~1/bin/ninja/win/x64/ninja.exe -v cmTC_33e61
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -Wall    -Wextra -o CMakeFiles/cmTC_33e61.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8j8xmg/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Wall  CMakeFiles/cmTC_33e61.dir/src.cxx.obj -o cmTC_33e61.exe -Wl,--out-implib,libcmTC_33e61.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:19 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zklwx4"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zklwx4"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zklwx4'
+        
+        Run Build Command(s): C:/Users/MSI/AppData/Local/Programs/CLIONN~1/bin/ninja/win/x64/ninja.exe -v cmTC_31156
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -Wall -Wextra    -pedantic -o CMakeFiles/cmTC_31156.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zklwx4/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Wall -Wextra  CMakeFiles/cmTC_31156.dir/src.cxx.obj -o cmTC_31156.exe -Wl,--out-implib,libcmTC_31156.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:20 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qhqi4d"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qhqi4d"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -pedantic"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qhqi4d'
+        
+        Run Build Command(s): C:/Users/MSI/AppData/Local/Programs/CLIONN~1/bin/ninja/win/x64/ninja.exe -v cmTC_43add
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -Wall -Wextra -pedantic    -std=c++11 -o CMakeFiles/cmTC_43add.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qhqi4d/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Wall -Wextra -pedantic  CMakeFiles/cmTC_43add.dir/src.cxx.obj -o cmTC_43add.exe -Wl,--out-implib,libcmTC_43add.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:21 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-f19bi9"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-f19bi9"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -pedantic -std=c++11"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-f19bi9'
+        
+        Run Build Command(s): C:/Users/MSI/AppData/Local/Programs/CLIONN~1/bin/ninja/win/x64/ninja.exe -v cmTC_d81eb
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -Wall -Wextra -pedantic -std=c++11    -O3 -o CMakeFiles/cmTC_d81eb.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-f19bi9/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Wall -Wextra -pedantic -std=c++11  CMakeFiles/cmTC_d81eb.dir/src.cxx.obj -o cmTC_d81eb.exe -Wl,--out-implib,libcmTC_d81eb.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:22 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l25tpm"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l25tpm"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -pedantic -std=c++11 -O3"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l25tpm'
+        
+        Run Build Command(s): C:/Users/MSI/AppData/Local/Programs/CLIONN~1/bin/ninja/win/x64/ninja.exe -v cmTC_77c3d
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -Wall -Wextra -pedantic -std=c++11 -O3    -fopenmp -o CMakeFiles/cmTC_77c3d.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l25tpm/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Wall -Wextra -pedantic -std=c++11 -O3  CMakeFiles/cmTC_77c3d.dir/src.cxx.obj -o cmTC_77c3d.exe -Wl,--out-implib,libcmTC_77c3d.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:17 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fnn41s"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fnn41s"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fnn41s'
+        
+        Run Build Command(s): "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_fab6c
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -fdiagnostics-color=always   -Wall -o CMakeFiles/cmTC_fab6c.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fnn41s/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_fab6c.dir/src.cxx.obj -o cmTC_fab6c.exe -Wl,--out-implib,libcmTC_fab6c.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:18 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l9zjue"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l9zjue"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l9zjue'
+        
+        Run Build Command(s): "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_9b462
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -Wall  -fdiagnostics-color=always   -Wextra -o CMakeFiles/cmTC_9b462.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l9zjue/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Wall  CMakeFiles/cmTC_9b462.dir/src.cxx.obj -o cmTC_9b462.exe -Wl,--out-implib,libcmTC_9b462.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:19 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wzj4sq"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wzj4sq"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wzj4sq'
+        
+        Run Build Command(s): "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_a769b
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -Wall -Wextra  -fdiagnostics-color=always   -pedantic -o CMakeFiles/cmTC_a769b.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wzj4sq/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Wall -Wextra  CMakeFiles/cmTC_a769b.dir/src.cxx.obj -o cmTC_a769b.exe -Wl,--out-implib,libcmTC_a769b.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:20 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-blmex9"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-blmex9"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -pedantic"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-blmex9'
+        
+        Run Build Command(s): "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_0a2ae
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -Wall -Wextra -pedantic  -fdiagnostics-color=always   -std=c++11 -o CMakeFiles/cmTC_0a2ae.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-blmex9/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Wall -Wextra -pedantic  CMakeFiles/cmTC_0a2ae.dir/src.cxx.obj -o cmTC_0a2ae.exe -Wl,--out-implib,libcmTC_0a2ae.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:21 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dkzims"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dkzims"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -pedantic -std=c++11"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dkzims'
+        
+        Run Build Command(s): "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_a6384
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -Wall -Wextra -pedantic -std=c++11  -fdiagnostics-color=always   -O3 -o CMakeFiles/cmTC_a6384.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dkzims/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Wall -Wextra -pedantic -std=c++11  CMakeFiles/cmTC_a6384.dir/src.cxx.obj -o cmTC_a6384.exe -Wl,--out-implib,libcmTC_a6384.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:22 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ai9v9o"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ai9v9o"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -pedantic -std=c++11 -O3"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ai9v9o'
+        
+        Run Build Command(s): "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_dd00b
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -Wall -Wextra -pedantic -std=c++11 -O3  -fdiagnostics-color=always   -fopenmp -o CMakeFiles/cmTC_dd00b.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ai9v9o/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Wall -Wextra -pedantic -std=c++11 -O3  CMakeFiles/cmTC_dd00b.dir/src.cxx.obj -o cmTC_dd00b.exe -Wl,--out-implib,libcmTC_dd00b.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:17 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-yqm3in"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-yqm3in"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-yqm3in'
+        
+        Run Build Command(s): "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_c7a68
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -fdiagnostics-color=always   -Wall -o CMakeFiles/cmTC_c7a68.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-yqm3in/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_c7a68.dir/src.cxx.obj -o cmTC_c7a68.exe -Wl,--out-implib,libcmTC_c7a68.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:18 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zjw33y"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zjw33y"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zjw33y'
+        
+        Run Build Command(s): "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_b244d
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -Wall  -fdiagnostics-color=always   -Wextra -o CMakeFiles/cmTC_b244d.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zjw33y/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Wall  CMakeFiles/cmTC_b244d.dir/src.cxx.obj -o cmTC_b244d.exe -Wl,--out-implib,libcmTC_b244d.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:19 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9znkyy"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9znkyy"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9znkyy'
+        
+        Run Build Command(s): "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_ea140
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -Wall -Wextra  -fdiagnostics-color=always   -pedantic -o CMakeFiles/cmTC_ea140.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9znkyy/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Wall -Wextra  CMakeFiles/cmTC_ea140.dir/src.cxx.obj -o cmTC_ea140.exe -Wl,--out-implib,libcmTC_ea140.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:20 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ryhhho"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ryhhho"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -pedantic"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ryhhho'
+        
+        Run Build Command(s): "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_874da
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -Wall -Wextra -pedantic  -fdiagnostics-color=always   -std=c++11 -o CMakeFiles/cmTC_874da.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ryhhho/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Wall -Wextra -pedantic  CMakeFiles/cmTC_874da.dir/src.cxx.obj -o cmTC_874da.exe -Wl,--out-implib,libcmTC_874da.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:21 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3z974k"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3z974k"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -pedantic -std=c++11"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3z974k'
+        
+        Run Build Command(s): "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_56992
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -Wall -Wextra -pedantic -std=c++11  -fdiagnostics-color=always   -O3 -o CMakeFiles/cmTC_56992.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3z974k/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Wall -Wextra -pedantic -std=c++11  CMakeFiles/cmTC_56992.dir/src.cxx.obj -o cmTC_56992.exe -Wl,--out-implib,libcmTC_56992.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:22 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-s1sdcz"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-s1sdcz"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -pedantic -std=c++11 -O3"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-s1sdcz'
+        
+        Run Build Command(s): "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_f45f7
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -Wall -Wextra -pedantic -std=c++11 -O3  -fdiagnostics-color=always   -fopenmp -o CMakeFiles/cmTC_f45f7.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-s1sdcz/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Wall -Wextra -pedantic -std=c++11 -O3  CMakeFiles/cmTC_f45f7.dir/src.cxx.obj -o cmTC_f45f7.exe -Wl,--out-implib,libcmTC_f45f7.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:17 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9ov81u"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9ov81u"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9ov81u'
+        
+        Run Build Command(s): "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_8ed51
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -fdiagnostics-color=always   -Wall -o CMakeFiles/cmTC_8ed51.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9ov81u/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_8ed51.dir/src.cxx.obj -o cmTC_8ed51.exe -Wl,--out-implib,libcmTC_8ed51.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:18 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-r2il7x"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-r2il7x"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-r2il7x'
+        
+        Run Build Command(s): "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_1d505
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -Wall  -fdiagnostics-color=always   -Wextra -o CMakeFiles/cmTC_1d505.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-r2il7x/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Wall  CMakeFiles/cmTC_1d505.dir/src.cxx.obj -o cmTC_1d505.exe -Wl,--out-implib,libcmTC_1d505.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:19 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lhu0jc"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lhu0jc"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lhu0jc'
+        
+        Run Build Command(s): "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_ccf46
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -Wall -Wextra  -fdiagnostics-color=always   -pedantic -o CMakeFiles/cmTC_ccf46.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lhu0jc/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Wall -Wextra  CMakeFiles/cmTC_ccf46.dir/src.cxx.obj -o cmTC_ccf46.exe -Wl,--out-implib,libcmTC_ccf46.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:20 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wq6akv"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wq6akv"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -pedantic"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wq6akv'
+        
+        Run Build Command(s): "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_7d4af
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -Wall -Wextra -pedantic  -fdiagnostics-color=always   -std=c++14 -o CMakeFiles/cmTC_7d4af.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wq6akv/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Wall -Wextra -pedantic  CMakeFiles/cmTC_7d4af.dir/src.cxx.obj -o cmTC_7d4af.exe -Wl,--out-implib,libcmTC_7d4af.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:21 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-c8g91p"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-c8g91p"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -pedantic -std=c++14"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-c8g91p'
+        
+        Run Build Command(s): "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_9b36f
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -Wall -Wextra -pedantic -std=c++14  -fdiagnostics-color=always   -O2 -o CMakeFiles/cmTC_9b36f.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-c8g91p/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Wall -Wextra -pedantic -std=c++14  CMakeFiles/cmTC_9b36f.dir/src.cxx.obj -o cmTC_9b36f.exe -Wl,--out-implib,libcmTC_9b36f.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:22 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-53qmf6"
+      binary: "E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-53qmf6"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -pedantic -std=c++14 -O2"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-53qmf6'
+        
+        Run Build Command(s): "C:/Users/MSI/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_f2b99
+        [1/2] C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Dflag_supported  -Wall -Wextra -pedantic -std=c++14 -O2  -fdiagnostics-color=always   -fopenmp -o CMakeFiles/cmTC_f2b99.dir/src.cxx.obj -c E:/course/myraytracer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-53qmf6/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\MSI\\AppData\\Local\\Programs\\CLIONN~1\\bin\\mingw\\bin\\G__~1.EXE -Wall -Wextra -pedantic -std=c++14 -O2  CMakeFiles/cmTC_f2b99.dir/src.cxx.obj -o cmTC_f2b99.exe -Wl,--out-implib,libcmTC_f2b99.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...

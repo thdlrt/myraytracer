@@ -1,15 +1,12 @@
 # ninja log v5
-11	887	7341808617651541	CMakeFiles/tinyraytracer.dir/tinyraytracer.cpp.obj	d70cd420174e15a4
-888	1050	7341808618997406	tinyraytracer.exe	877fc17e3f3455bd
-7	800	7341813891714696	CMakeFiles/tinyraytracer.dir/tinyraytracer.cpp.obj	d70cd420174e15a4
-801	957	7341813893147838	tinyraytracer.exe	877fc17e3f3455bd
-8	873	7341814574283616	CMakeFiles/tinyraytracer.dir/tinyraytracer.cpp.obj	d70cd420174e15a4
-874	1012	7341814575615117	tinyraytracer.exe	877fc17e3f3455bd
-7	920	7341814712818993	CMakeFiles/tinyraytracer.dir/tinyraytracer.cpp.obj	d70cd420174e15a4
-921	1062	7341814714525429	tinyraytracer.exe	877fc17e3f3455bd
-7	901	7341819023595476	CMakeFiles/tinyraytracer.dir/tinyraytracer.cpp.obj	d70cd420174e15a4
-901	1048	7341819025051800	tinyraytracer.exe	877fc17e3f3455bd
-7	858	7341819993905515	CMakeFiles/tinyraytracer.dir/tinyraytracer.cpp.obj	d70cd420174e15a4
-858	1017	7341819995339144	tinyraytracer.exe	877fc17e3f3455bd
-7	837	7341820153572587	CMakeFiles/tinyraytracer.dir/tinyraytracer.cpp.obj	d70cd420174e15a4
-837	986	7341820155080167	tinyraytracer.exe	877fc17e3f3455bd
+3	2488	7341848784224794	build.ninja	9b5834e2f73b6df8
+14	966	7341848144882604	CMakeFiles/tinyraytracer.dir/tinyraytracer.cpp.obj	d70cd420174e15a4
+966	1125	7341848146268425	tinyraytracer.exe	926ef9e4f9ce974c
+6	224	7341848136530961	CMakeFiles/tinyraytracer.dir/geometry.cpp.obj	6637842859446040
+9	1163	7341848812436870	CMakeFiles/tinyraytracer.dir/geometry.cpp.obj	6dea15ee93a94b1
+16	1181	7341848813017337	CMakeFiles/tinyraytracer.dir/tinyraytracer.cpp.obj	d9a2aeeab4b199a4
+1181	1438	7341848814528452	tinyraytracer.exe	cc5bf4bd4fabc7d5
+7	818	7341850369783678	CMakeFiles/tinyraytracer.dir/tinyraytracer.cpp.obj	d9a2aeeab4b199a4
+818	945	7341850371514445	tinyraytracer.exe	cc5bf4bd4fabc7d5
+5	709	7341851049881054	CMakeFiles/tinyraytracer.dir/tinyraytracer.cpp.obj	d9a2aeeab4b199a4
+710	851	7341851051261686	tinyraytracer.exe	cc5bf4bd4fabc7d5
